@@ -1,0 +1,4 @@
+# Most scripts use only the standard library.
+# These are needed for charts and for running the checks locally.
+matplotlib>=3.8
+ruff>=0.6

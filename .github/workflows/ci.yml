@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Lint
+        run: ruff check .
+
+      - name: Run every script with small inputs
+        env:
+          QUICK: "1"
+          MPLBACKEND: Agg
+        run: |
+          set -e
+          for f in $(find posts newsletter experiments formula-sheets underrated -name "*.py" | sort); do
+            echo "::group::$f"
+            python "$f"
+            echo "::endgroup::"
+          done

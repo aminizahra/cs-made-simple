@@ -1,0 +1,2 @@
+n,lookups,list_s,set_s,build_set_s,speedup
+1000000,1000,4.072000,0.000037000,0.028100,110817

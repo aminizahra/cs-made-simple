@@ -1,0 +1,28 @@
+# CS Made Simple: dark plot style matching the carousels.
+# Use: plt.style.use("assets/brand.mplstyle")
+figure.facecolor: 0b0b0c
+axes.facecolor: 141416
+savefig.facecolor: 0b0b0c
+axes.edgecolor: 3a3a40
+axes.labelcolor: d9d7d0
+axes.titlecolor: f5f3ec
+axes.titlesize: 16
+axes.titleweight: bold
+axes.labelsize: 12
+axes.grid: True
+grid.color: 26262a
+grid.linewidth: 0.8
+xtick.color: d9d7d0
+ytick.color: d9d7d0
+text.color: f5f3ec
+legend.facecolor: 141416
+legend.edgecolor: 26262a
+legend.labelcolor: f5f3ec
+lines.linewidth: 2.6
+lines.markersize: 6
+font.family: monospace
+font.monospace: JetBrains Mono, DejaVu Sans Mono
+# Series colors: orange (method A), teal (method B), yellow, green, pink
+axes.prop_cycle: cycler('color', ['ff8f57', '2ed3c6', 'ffe45c', '52f28f', 'ff7ac0'])
+figure.figsize: 10.8, 6.75
+figure.dpi: 100
