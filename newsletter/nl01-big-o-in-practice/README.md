@@ -1,6 +1,6 @@
 # NL01 · Big-O in Practice: Why Was My Correct Code Slow?
 
-**Under the Hood, issue #1** · [Read the article](ARTICLE_URL)
+**Under the Hood, issue #1** · [Read the article in Persian](https://www.linkedin.com/pulse/%D8%B2%DB%8C%D8%B1%DA%A9%D8%A7%D9%BE%D9%88%D8%AA-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-01-big-o-%D8%AF%D8%B1-%D8%B9%D9%85%D9%84-zahra-amini-3c9yc) | [Read the article in English]()
 
 Correct code can still be slow. Two experiments show where the slowness hides and how a one-line change makes code thousands of times faster.
 
