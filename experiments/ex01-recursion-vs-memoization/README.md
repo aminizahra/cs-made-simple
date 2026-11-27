@@ -28,6 +28,14 @@ The script saves `results/fib_calls.csv` and, if matplotlib is installed, `resul
 | 20 | 21,891 | 21 |
 | 30 | **2,692,537** | **31** |
 
+## 🎬 Recursion vs Memoization
+
+<p align="center">
+  <img src="experiments/ex01-recursion-vs-memoization/EX01-recursion-vs-memoization.gif"
+       width="700"
+       alt="Recursion vs Memoization Demo">
+</p>
+
 The naive version recomputes the same values again and again, so its work grows exponentially (roughly ×1.6 for every +1 in n). The memoized version computes each value once.
 
 ## Why it matters
